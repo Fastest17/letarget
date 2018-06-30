@@ -1,0 +1,40 @@
+header{
+  margin-top: 68px;
+  margin-bottom: 46px;
+  .icon{
+    display: none;
+    width: 36px;
+    height: 36px;
+  }
+
+  .top-menu{
+    display: flex;
+    margin-left: 200px;
+    .top-nav-menu{
+      display: flex;
+      color: #424242;
+      font-size: 16px;
+      font-weight: 400;
+      height: 16px;
+      box-sizing: border-box;
+
+      a{
+          padding-right: 30px;
+          //position: relative;
+          box-sizing: border-box;
+
+
+          &:hover {
+            //position: absolute;
+            //border-bottom: 11px solid #ffeb3b;
+            margin-top: -11px;
+            box-sizing: border-box;
+            background: #ffeb3b;
+            //padding-top: -11px;
+          }
+        }
+    }
+  }
+
+}
+
