@@ -87,7 +87,7 @@ main {
     line-height: 60px; }
   main .rent-us {
     position: fixed;
-    z-index: 500;
+    z-index: 100;
     right: -50px;
     height: 43px;
     width: 142px;
@@ -444,6 +444,7 @@ footer .dev {
 
 .slideout-inner {
   display: none;
+  z-index: 500;
   position: fixed;
   width: 376px;
   height: 535px;
