@@ -142,15 +142,21 @@ main {
           line-height: 53.21px;
           text-transform: uppercase;
           padding-top: 20px; }
+          main .menu .menu-items .menu-item-1 a:hover {
+            margin-left: 20px; }
         main .menu .menu-items .menu-item-1 .menu-btn {
           width: 139px;
           height: 43px;
           margin-top: 25px;
           background-color: inherit;
-          border: 1px solid #424242; }
+          border: 1px solid #424242;
+          cursor: pointer; }
           main .menu .menu-items .menu-item-1 .menu-btn:hover {
             background: #424242;
-            opacity: 0.8; }
+            opacity: 0.8;
+            transition: 0.5s;
+            color: #fff;
+            font-size: 18px; }
       main .menu .menu-items .menu-item-2 {
         width: 346px;
         height: 238px;
@@ -170,16 +176,22 @@ main {
           line-height: 53.21px;
           text-transform: uppercase;
           padding-top: 20px; }
+          main .menu .menu-items .menu-item-2 a:hover {
+            margin-left: 20px; }
         main .menu .menu-items .menu-item-2 .menu-btn {
           color: #ffffff;
           width: 139px;
           height: 43px;
           margin-top: 25px;
           background-color: inherit;
-          border: 1px solid #ffffff; }
+          border: 1px solid #ffffff;
+          cursor: pointer; }
           main .menu .menu-items .menu-item-2 .menu-btn:hover {
             background: #424242;
-            opacity: 0.8; }
+            opacity: 0.8;
+            transition: 0.5s;
+            color: #fff;
+            font-size: 18px; }
       main .menu .menu-items .menu-item-3 {
         width: 346px;
         height: 238px;
@@ -200,15 +212,21 @@ main {
           line-height: 53.21px;
           text-transform: uppercase;
           padding-top: 20px; }
+          main .menu .menu-items .menu-item-3 a:hover {
+            margin-left: 20px; }
         main .menu .menu-items .menu-item-3 .menu-btn {
           margin-top: 25px;
           width: 139px;
           height: 43px;
           background-color: inherit;
-          border: 1px solid #424242; }
+          border: 1px solid #424242;
+          cursor: pointer; }
           main .menu .menu-items .menu-item-3 .menu-btn:hover {
             background: #424242;
-            opacity: 0.8; }
+            opacity: 0.8;
+            transition: 0.5s;
+            color: #fff;
+            font-size: 18px; }
     main .menu .menu-bg img {
       max-width: 1366px; }
   main .about-us .about-us-left a {
@@ -244,7 +262,8 @@ main {
     margin-top: 16px;
     cursor: pointer; }
     main .about-us .about-us-left .about-us-btn:hover {
-      opacity: .5; }
+      background-color: #ffc913;
+      transition: 0.3s; }
   main .about-us .about-us-right {
     padding: 0; }
     main .about-us .about-us-right img {
@@ -360,9 +379,11 @@ main {
           text-transform: uppercase;
           padding: 22px 42px;
           background-color: #000000;
-          border: none; }
+          border: none;
+          cursor: pointer; }
           main .cta .cta-items .cta-item button:hover, main .cta .cta-items .cta-item button:active {
-            opacity: 0.8; }
+            transition: 0.3s;
+            padding: 25px 45px; }
 
 footer .footer-items {
   margin-top: 115px; }
@@ -406,9 +427,11 @@ footer .footer-items {
       border: none;
       color: white;
       font-size: 14px;
-      font-weight: 400; }
+      font-weight: 400;
+      cursor: pointer; }
       footer .footer-items .footer-item4 form button:hover {
-        opacity: 0.7; }
+        opacity: 0.7;
+        transition: 0.3s; }
 
 footer .dev {
   color: #616161;
