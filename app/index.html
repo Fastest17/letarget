@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -99,24 +101,60 @@
         </div>
 
         <div class="objects">
-            <div class="container">
-                <div class="row justify-content-start align-items-end objects-items">
-                    <div class="objects-left col-xl-8 col-md-8 col-lg-8">
-                        <div class="objects-about">
-                            <p>300$</p>
-                            <h3>Затишна 2 кімнатна
-                                квартира у центрі
-                                львова</h3>
+            <div class="container-fluid">
+                <div class="slider col-md-auto col-xl-auto col-lg-auto">
+                    <div class="slider-items">
+                        <div class="slider-item">
+                            <div class="slider-description">
+                                <p>300$</p>
+                                <h3>Затишна 2 кімнатна
+                                    квартирау центрі
+                                    львова</h3>
+                            </div>
+                            <div class="slide-number">1 - 10</div>
+                            <div class="pic"></div>
                         </div>
-                        <img src="img/slider1.jpg" alt="flat">
                     </div>
-                    <div class="objects-right col-xl-4 col-md-4 col-lg-4">
-                        <div class="objects-btn">
-                            <button id="btn-prev">&#8592;</button>
-                            <button id="btn-next">&#8594;</button>
+                    <div class="slider-items">
+                        <div class="slider-item">
+                            <div class="slider-description">
+                                <p>300$</p>
+                                <h3>Затишна 2 кімнатна
+                                    квартирау центрі
+                                    львова</h3>
+                            </div>
+                            <div class="slide-number">2 - 10</div>
+                            <div class="pic"></div>
                         </div>
-                        <img src="img/slider2.jpg" alt="flat">
                     </div>
+                    <div class="slider-items">
+                        <div class="slider-item">
+                            <div class="slider-description">
+                                <p>300$</p>
+                                <h3>Затишна 2 кімнатна
+                                    квартирау центрі
+                                    львова</h3>
+                            </div>
+                            <div class="slide-number">3 - 10</div>
+                            <div class="pic"></div>
+                        </div>
+                    </div>
+                    <div class="slider-items">
+                        <div class="slider-item">
+                            <div class="slider-description">
+                                <p>300$</p>
+                                <h3>Затишна 2 кімнатна
+                                    квартирау центрі
+                                    львова</h3>
+                            </div>
+                            <div class="slide-number">4 - 10</div>
+                            <div class="pic"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btn col-md-auto col-xl-auto col-lg-auto">
+                    <button id="btn-prev">&#8592;</button>
+                    <button id="btn-next">&#8594;</button>
                 </div>
             </div>
         </div>
@@ -143,7 +181,7 @@
 
         <div class="cta">
             <div class="container">
-                <div class="row align-items-start cta-items">
+                <div class="row align-items-start justify-content-start cta-items">
                     <div class="col-xl-auto col-md-8 col-lg-auto cta-item">
                         <h2>Ми Допоможемо Вам
                             знайти житло вашої мрії</h2>
@@ -219,10 +257,8 @@
         </form>
     </div>
 
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="slick/slick.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

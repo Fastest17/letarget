@@ -51,9 +51,7 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .container {
-  width: 1200px;
-  padding: 0;
-  margin: 0 auto; }
+  width: 1200px; }
 
 header {
   margin-top: 68px;
@@ -89,6 +87,7 @@ main {
     line-height: 60px; }
   main .rent-us {
     position: fixed;
+    z-index: 500;
     right: -50px;
     height: 43px;
     width: 142px;
@@ -253,50 +252,52 @@ main {
       height: 615px; }
   main .objects {
     margin-top: 91px; }
-    main .objects .objects-items {
-      display: flex; }
-      main .objects .objects-items .objects-left {
-        position: relative; }
-        main .objects .objects-items .objects-left img {
-          max-width: 760px;
-          height: 655px; }
-        main .objects .objects-items .objects-left .objects-about {
-          position: absolute;
-          width: 339px;
-          height: 229px;
-          background-color: #ffeb3b;
-          margin-top: -27px;
-          margin-left: 30px;
-          padding-left: 52px; }
-          main .objects .objects-items .objects-left .objects-about p {
-            padding-top: 48px;
-            padding-bottom: 30px;
-            color: #000000;
-            font-size: 15px;
-            font-weight: 600;
-            line-height: 31.68px;
-            text-transform: uppercase; }
-          main .objects .objects-items .objects-left .objects-about h3 {
-            color: #000000;
-            font-size: 19px;
-            font-weight: 600;
-            line-height: 31.68px;
-            text-transform: uppercase; }
-      main .objects .objects-items .objects-right {
-        margin-left: -20px; }
-        main .objects .objects-items .objects-right .objects-btn {
-          margin-bottom: 30px;
-          float: right; }
-          main .objects .objects-items .objects-right .objects-btn button {
-            padding: 20px 17px;
-            border: 2px solid #ffeb3b;
-            background-color: inherit;
-            font-size: 13px; }
-            main .objects .objects-items .objects-right .objects-btn button:hover, main .objects .objects-items .objects-right .objects-btn button:active {
-              background-color: #ffeb3b; }
-        main .objects .objects-items .objects-right img {
-          max-width: 440px;
-          height: 543px; }
+    main .objects .slider .slider-item .slider-description {
+      position: absolute;
+      width: 339px;
+      height: 229px;
+      background-color: #ffeb3b;
+      margin-top: -27px;
+      margin-left: 30px;
+      padding-left: 52px; }
+      main .objects .slider .slider-item .slider-description p {
+        padding-top: 48px;
+        padding-bottom: 30px;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 31.68px;
+        text-transform: uppercase; }
+      main .objects .slider .slider-item .slider-description h3 {
+        color: #000000;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 31.68px;
+        text-transform: uppercase; }
+    main .objects .slider .slider-item .slide-number {
+      position: relative;
+      z-index: 500;
+      left: 1000px;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px; }
+    main .objects .slider .slider-item .pic {
+      background: url("../img/slide.png") no-repeat;
+      height: 655px;
+      max-width: 1366px;
+      width: 100%; }
+    main .objects .slider-btn {
+      position: absolute;
+      right: 100px;
+      margin-top: -630px; }
+      main .objects .slider-btn button {
+        padding: 20px 17px;
+        border: 2px solid #ffeb3b;
+        background-color: inherit;
+        font-size: 13px; }
+        main .objects .slider-btn button:hover, main .objects .slider-btn button:active {
+          background-color: #ffeb3b; }
   main .testimonials {
     margin-top: 104px; }
     main .testimonials a {
@@ -509,33 +510,18 @@ footer .dev {
     display: block; }
   main .menu .menu-items .menu-item-1, main .menu .menu-items .menu-item-2, main .menu .menu-items .menu-item-3 {
     margin-bottom: 20px; }
-  main .objects .objects-items .objects-left img {
-    max-width: 525px;
-    width: 100%;
-    max-height: 371px;
-    height: 100%; }
-  main .objects .objects-items .objects-right {
-    margin-left: -25px; }
-    main .objects .objects-items .objects-right img {
-      max-width: 246px;
-      width: 100%;
-      max-height: 306px;
-      height: 100%; }
+  main .objects .slider .slider-items .slider-item .slide-number {
+    margin-left: 750px; }
+  main .objects .slider .slider-items .slider-item .pic {
+    max-width: 1200px;
+    width: 100%; }
+  main .objects .slider-btn {
+    margin-top: -750px; }
   main .testimonials img {
     max-width: 340px;
     width: 100%; }
   main .cta {
     padding-top: 100px; }
-    main .cta .cta-items {
-      max-width: 397px;
-      height: 470px;
-      width: 100%; }
-      main .cta .cta-items .cta-item h2 {
-        font-size: 12px; }
-      main .cta .cta-items .cta-item p {
-        font-size: 10px; }
-      main .cta .cta-items .cta-item button {
-        padding: 12px 22px; }
   footer {
     text-align: center; }
     footer h2 {

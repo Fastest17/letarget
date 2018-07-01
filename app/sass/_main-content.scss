@@ -8,6 +8,7 @@ main{
   }
   .rent-us{
     position: fixed;
+    z-index: 500;
     right: -50px;
     height: 43px;
     width: 142px;
@@ -211,17 +212,9 @@ main{
 
   .objects{
     margin-top: 91px;
-
-    .objects-items{
-      display: flex;
-
-      .objects-left{
-        position: relative;
-        img{
-          max-width: 760px;
-          height: 655px;
-        }
-        .objects-about{
+    .slider{
+      .slider-item{
+        .slider-description{
           position: absolute;
           width: 339px;
           height: 229px;
@@ -240,36 +233,43 @@ main{
           }
           h3{
             color: #000000;
-
             font-size: 19px;
             font-weight: 600;
             line-height: 31.68px;
             text-transform: uppercase;
           }
         }
-      }
-      .objects-right{
-        margin-left: -20px;
-        .objects-btn{
-          margin-bottom: 30px;
-          float: right;
-          button{
-            padding: 20px 17px;
-            border: 2px solid #ffeb3b;
-            background-color: inherit;
-            font-size: 13px;
-            &:hover, &:active{
-              background-color: #ffeb3b;
-            }
-          }
+        .slide-number{
+          position: relative;
+          z-index: 500;
+          left: 1000px;
+          margin-top: 30px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
         }
-        img{
-          max-width: 440px;
-          height: 543px;
+        .pic{
+          background: url("../img/slide.png") no-repeat;
+          height: 655px;
+          max-width: 1366px;
+          width: 100%;
         }
       }
     }
-
+    .slider-btn{
+      position: absolute;
+      right: 100px;
+      margin-top: -630px;
+      button{
+        padding: 20px 17px;
+        border: 2px solid #ffeb3b;
+        background-color: inherit;
+        font-size: 13px;
+        &:hover, &:active{
+          background-color: #ffeb3b;
+        }
+      }
+    }
   }
 
   .testimonials{

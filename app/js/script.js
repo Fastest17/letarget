@@ -19,7 +19,10 @@ $(document).ready(function(){
     })
 });
 
-
+$('.slider').slick({
+    prevArrow: $('#btn-prev'),
+    nextArrow: $('#btn-next')
+});
 
 
 
